@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.up {
+  display: block;
+}
+
+button {
+  background-color: #f2f8f2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  color: black
+}
+
+.btnrule {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+
+.down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 4rem;
+}
+
+.CorretNumber {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f2f8f2;
+  color: #000;
+}
+
+.container-score {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-checkbox {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.container-showScore {
+  width: 40%;
+}
+
+.guess {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
